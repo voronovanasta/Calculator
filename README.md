@@ -29,10 +29,13 @@ The project's directory structure is organized in the following way:
 
 - **src/**: This folder contains the source code for the project.
 
-  - **js/**: Stores Calculator MVC , every component according to this pattern stores in its folder respectively.
-  - **css/**:  Holds global style files, SCSS or styled components, and theme-related configurations.
+  - **js/**: Stores Calculator MVC, every component according to this pattern stores in its folder respectively.
+    -**controller**: stores controller js file for calculator,
+    -**model**: stores model js file for calculator,
+    -**view**: stores view js file for calculator,
+  - **css/**:  Holds global style files and theme-related configurations.
 
-- **dist/**: The build output from Webpack when the project is compiled and bundled for production deployment.
+- **public/**: The build output from Webpack when the project is compiled and bundled for production deployment.
 
 ## Scripts
 
